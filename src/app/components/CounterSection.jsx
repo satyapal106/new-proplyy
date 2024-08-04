@@ -1,6 +1,6 @@
-'use client'; // Ensure this code runs on the client-side
+'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import './CounterSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
@@ -13,17 +13,17 @@ const Counter = ({ endValue, duration, isInView }) => {
         if (!isInView) return;
 
         const start = 0;
-        const end = endValue;
-        const stepTime = Math.abs(Math.floor(duration / (end - start)));
+        const stepTime = Math.abs(Math.floor(duration / (endValue - start)));
         let current = start;
 
         const updateCount = () => {
-            current += 1;
-            setCount((prevCount) => (prevCount < end ? current : end));
-
-            if (current >= end) {
-                clearInterval(timer);
-            }
+            setCount((prevCount) => {
+                if (prevCount < endValue) {
+                    const newCount = prevCount + 1;
+                    return newCount >= endValue ? endValue : newCount;
+                }
+                return prevCount;
+            });
         };
 
         const timer = setInterval(updateCount, stepTime);
@@ -43,18 +43,17 @@ const CounterSection = () => {
     const sectionRef = useRef(null);
     const [isInView, setIsInView] = useState(false);
 
+    const handleIntersection = useCallback((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                setIsInView(true);
+                observer.unobserve(entry.target); // Stop observing once in view
+            }
+        });
+    }, []);
+
     useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        setIsInView(true);
-                        observer.unobserve(entry.target); // Use entry.target instead of sectionRef.current
-                    }
-                });
-            },
-            { threshold: 0.1 } // Adjust threshold as needed
-        );
+        const observer = new IntersectionObserver(handleIntersection, { threshold: 0.1 });
 
         const currentSectionRef = sectionRef.current; // Capture ref in a variable
 
@@ -66,8 +65,9 @@ const CounterSection = () => {
             if (currentSectionRef) {
                 observer.unobserve(currentSectionRef);
             }
+            observer.disconnect(); // Cleanup the observer
         };
-    }, []);
+    }, [handleIntersection]);
 
     return (
         <div className="counter-section" ref={sectionRef}>
