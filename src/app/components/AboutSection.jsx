@@ -103,16 +103,16 @@ const AboutSection = () => {
             </ul>
             <div className="tab-content mt-3" id="myTabContent">
               <div className={`tab-pane fade ${activeTab === "developers" ? "show active" : ""}`} id="developers" role="tabpanel" aria-labelledby="developers-tab">
-                <p>Developer Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Developer Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
               <div className={`tab-pane fade ${activeTab === "partners" ? "show active" : ""}`} id="partners" role="tabpanel" aria-labelledby="partners-tab">
-                <p>Channel Partner Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Channel Partner Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
               <div className={`tab-pane fade ${activeTab === "corporates" ? "show active" : ""}`} id="corporates" role="tabpanel" aria-labelledby="corporates-tab">
-                <p>Corporates Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Corporates Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
               <div className={`tab-pane fade ${activeTab === "consumers" ? "show active" : ""}`} id="consumers" role="tabpanel" aria-labelledby="consumers-tab">
-                <p>Consumers Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Consumers Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
             </div>
           </div>

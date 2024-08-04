@@ -1,8 +1,10 @@
-'use client';
+'use client'; // Ensure this code runs on the client-side
+
 import { useState, useEffect, useRef } from 'react';
 import './CounterSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+
 // Counter Component
 const Counter = ({ endValue, duration, isInView }) => {
     const [count, setCount] = useState(0);
@@ -47,20 +49,22 @@ const CounterSection = () => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         setIsInView(true);
-                        observer.unobserve(sectionRef.current);
+                        observer.unobserve(entry.target); // Use entry.target instead of sectionRef.current
                     }
                 });
             },
             { threshold: 0.1 } // Adjust threshold as needed
         );
 
-        if (sectionRef.current) {
-            observer.observe(sectionRef.current);
+        const currentSectionRef = sectionRef.current; // Capture ref in a variable
+
+        if (currentSectionRef) {
+            observer.observe(currentSectionRef);
         }
 
         return () => {
-            if (sectionRef.current) {
-                observer.unobserve(sectionRef.current);
+            if (currentSectionRef) {
+                observer.unobserve(currentSectionRef);
             }
         };
     }, []);
