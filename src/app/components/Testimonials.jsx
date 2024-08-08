@@ -152,8 +152,7 @@ const Testimonials = () => {
                         Anshul Srivastava
                       </span>
                       <p className="testimonial-text">
-                        I would like to thank the entire team of Proplyy, for helping me find the perfect property according to my requirement & budget. In Proplyy i have found the one stop property destination. One word that describes them best is "Trustworthy".
-                      </p>
+                      {"I would like to thank the entire team of 'Proplyy,' for helping me find the perfect property according to my requirement & budget. In Proplyy i have found the one stop property destination. One word that describes them best is 'Trustworthy'"} </p>
 
                     </div>
                   </div>
@@ -174,8 +173,7 @@ const Testimonials = () => {
                         Mohammad Faiyaz Ahmad
                       </span>
                       <p className="testimonial-text">
-                        I recently had my Plot sale arranged through Proplyy. They took complete responsibility for property management that I would have probably not done by myself owing to my busy work schedule. They laid realistic expectations, guided the purchaser and us on the loan transfer option & process that made the transaction rather fast and saved the hassle of re-approvals of documents by bank. The terms & conditions laid by them were quite candid and they had good clarity on documentation work that's most essential for managing real estate business. Thanks Proplyy and wish you All the very best !-
-                      </p>
+                      {"I recently had my Plot sale arranged through Proplyy. They took complete responsibility for property management that I would have probably not done by myself owing to my busy work schedule. They laid realistic expectations, guided the purchaser and us on the loan transfer option & process that made the transaction rather fast and saved the hassle of re-approvals of documents by bank. The terms & conditions laid by them were quite candid and they had good clarity on documentation work that's most essential for managing real estate business. Thanks Proplyy and wish you All the very best !-"}</p>
 
                     </div>
                   </div>
