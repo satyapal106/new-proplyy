@@ -33,7 +33,7 @@ const Counter = ({ endValue, duration, isInView }) => {
 
     return (
         <div className="counter-value">
-            {count}
+            {count}+
         </div>
     );
 };
@@ -77,10 +77,10 @@ const CounterSection = () => {
                         <h2 className='text-center'>Counter Section</h2>
                     </div>
                     {[
-                        { endValue: 515, duration: 3500, label: 'Web Designing' },
-                        { endValue: 487, duration: 3500, label: 'Web Development' },
-                        { endValue: 375, duration: 3300, label: 'Graphic Design' },
-                        { endValue: 420, duration: 3300, label: 'SEO Services' },
+                        { endValue: 11, duration: 3500, label: 'Years of Experience' },
+                        { endValue: 700, duration: 3500, label: 'Happy Customer' },
+                        { endValue: 300, duration: 3300, label: 'Cr Worth Property Sold' },
+                        { endValue: 100, duration: 3300, label: 'Projects' },
                     ].map((counter, index) => (
                         <div key={index} className="col-6 col-md-3 col-sm-6">
                             <div className="counter">

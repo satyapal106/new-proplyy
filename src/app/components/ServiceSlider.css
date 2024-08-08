@@ -22,9 +22,10 @@
  
 .service-section .service-title {
     color: #000;
-    font-family: Manrope, sans-serif;
-    font-weight: 600;
+    font-family: bw_gradual_demobold;
+    font-weight: 400;
     font-size: 36px;
+    line-height: 54px;
 }
 .service-section .service-para {
     color: #000;
@@ -66,6 +67,13 @@
 .newsCaption-title {
     margin-top: 0;
     transition: text-decoration 0.4s;
+}
+
+.newsCaption .h3, h3 {
+    font-size: 22px;
+    font-family: figtreeregular;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .newsCaption-content {

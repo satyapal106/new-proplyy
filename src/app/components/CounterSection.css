@@ -4,7 +4,7 @@
   }
   .counter-section{
     padding: 50px 0px;
-    background-color: #daf1ff;
+    /* background-color: #daf1ff; */
   }
   .counter{
     color: var(--color1);

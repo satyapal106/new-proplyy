@@ -60,21 +60,22 @@
   
   .slide-main--heading {
     display: block;
+    font-family: bw_gradual_demomedium;
     text-align: center;
     color: #fff;
-    line-height: normal;
     text-shadow: rgb(11, 18, 54) 3px 3px 15px;
     padding: 0px 0px 23px;
-    font-weight: 700;
-    font-size: 52px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
     white-space: normal;
     text-transform: capitalize;
   }
   
   .from-left,
   .from-right {
-    opacity: 0;
-    filter: blur(4px);
+    /* opacity: 0;
+    filter: blur(4px); */
     transition: opacity 0.5s ease, filter 0.5s ease;
   }
   

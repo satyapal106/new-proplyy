@@ -3,7 +3,7 @@ import Image from 'next/image';
 export const Technology = () => {
   return (
     <>
-      <section className='technology-section'>
+      <section className='technology-section'  style={{backgroundColor: '#e4edf6'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-12">

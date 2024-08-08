@@ -77,11 +77,11 @@ export const ParallaxSlider = () => {
                       <span><i className="fa-solid fa-award"></i> {slide.subheading}</span>
                     </div> */}
                     <div className="slide-main--heading mb-3">
-                      <div className="from-left cursor-scale">{slide.heading[0]}</div>
-                      <div className="from-right cursor-scale ">{slide.heading[1]}</div>
+                      <div className="from-left">{slide.heading[0]}</div>
+                      <div className="from-right">{slide.heading[1]}</div>
                     </div>
                     <div className="slide-des mb-3">
-                      <p className='cursor-scale small'>{slide.description}</p>
+                      <p className='slider-para'>{slide.description}</p>
                     </div>
                     <div className="slide-cta mb-3">
                       <a href={slide.link} className="slide-btn gradient-btn btn btn-primary">

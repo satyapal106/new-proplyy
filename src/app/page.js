@@ -19,7 +19,7 @@ export default function Home() {
       <ParallaxSlider/>
       <ServiceSlider/>
       <FeaturedService/>
-      <AboutSection/>
+      {/* <AboutSection/> */}
       <BlogSlider/>
       <Technology/>
       <CounterSection/>

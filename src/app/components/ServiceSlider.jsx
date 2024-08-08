@@ -16,20 +16,20 @@ const ServiceSlider = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <h2 className="service-title cursor-scale">Services</h2>
-            <p className="service-para">
+            <h2 className="service-title text-center">Our Services</h2>
+            {/* <p className="service-para">
               We create innovative strategies to enable transformative growth
-            </p>
+            </p> */}
           </div>
 
           <div className="col-md-12">
             <Swiper
               modules={[Navigation, Pagination, Scrollbar, Autoplay]}
               spaceBetween={30}
-              autoplay={{
-                delay: 4000,
-                disableOnInteraction: false,
-              }}
+              // autoplay={{
+              //   delay: 4000,
+              //   disableOnInteraction: false,
+              // }}
               navigation={true}
               slidesPerView={1}
               breakpoints={{
@@ -54,7 +54,7 @@ const ServiceSlider = () => {
                   alt="Service 1" 
                   />
                   <div className="newsCaption">
-                    <h3 className="newsCaption-title">Title 1</h3>
+                    <h3 className="newsCaption-title">Property Management</h3>
                     <p className="newsCaption-content">Blurb to get reader hooked.</p>
                     <p><a className="newsCaption-link" href="#">Read More</a></p>
                   </div>
@@ -67,7 +67,7 @@ const ServiceSlider = () => {
                    height={250} 
                   alt="Service 2" />
                   <div className="newsCaption">
-                    <h3 className="newsCaption-title">Title 2</h3>
+                    <h3 className="newsCaption-title">Finance Management</h3>
                     <p className="newsCaption-content">Blurb to get reader hooked.</p>
                     <p><a className="newsCaption-link" href="#">Read More</a></p>
                   </div>
@@ -82,7 +82,7 @@ const ServiceSlider = () => {
                     alt="Service 3" 
                   />
                   <div className="newsCaption">
-                    <h3 className="newsCaption-title">Title 3</h3>
+                    <h3 className="newsCaption-title">Legal Management</h3>
                     <p className="newsCaption-content">Blurb to get reader hooked.</p>
                     <p><a className="newsCaption-link" href="#">Read More</a></p>
                   </div>
@@ -97,7 +97,22 @@ const ServiceSlider = () => {
                   alt="Service 4" 
                   />
                   <div className="newsCaption">
-                    <h3 className="newsCaption-title">Title 4</h3>
+                    <h3 className="newsCaption-title">Investment Management</h3>
+                    <p className="newsCaption-content">Blurb to get reader hooked.</p>
+                    <p><a className="newsCaption-link" href="#">Read More</a></p>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="newsCard news-Slide-up">
+                  <Image 
+                  src="/assets/images/house/our-properties-1.jpg" 
+                  width={500}
+                  height={250}
+                  alt="Service 4" 
+                  />
+                  <div className="newsCaption">
+                    <h3 className="newsCaption-title">Project Management</h3>
                     <p className="newsCaption-content">Blurb to get reader hooked.</p>
                     <p><a className="newsCaption-link" href="#">Read More</a></p>
                   </div>
