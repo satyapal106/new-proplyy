@@ -16,28 +16,24 @@ export const ParallaxSlider = () => {
   const slides = [
     {
       image: "https://imgpanda.com/upload/ib/7h4GtHmC8Y.jpg",
-      subheading: "On demand live support",
-      heading: ["Delivering creative", "digital products"],
-      description: "We're a fully dedicated corporate service agency collaborating with brands all over the world.",
+      heading: ["Your Property", "Our Priority"],
+      description: "Property Management Services You Can Trust",
       link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
     },
     {
       image: "https://imgpanda.com/upload/ib/NqHhOwv4t0.jpg",
-      subheading: "On demand live support",
-      heading: ["Start your online", "business today"],
-      description: "We're a fully dedicated corporate service agency collaborating with brands all over the world.",
+      heading: ["Unlock Your", "Wealth Potential"],
+      description: "With Expert Investment Management",
       link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
     },
     {
       image: "https://imgpanda.com/upload/ib/bRqJVoCe3b.jpg",
-      subheading: "On demand live support",
-      heading: ["Awesome Solutions", "For your Business"],
-      description: "We're a fully dedicated corporate service agency collaborating with brands all over the world.",
+      heading: ["Transforming", "Investments"],
+      description: "Into success stories with our Comprehensive Management Solutions",
       link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
     },
     {
       image: "https://imgpanda.com/upload/ib/7h4GtHmC8Y.jpg",
-      subheading: "On demand live support",
       heading: ["Delivering creative", "digital products"],
       description: "We're a fully dedicated corporate service agency collaborating with brands all over the world.",
       link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
@@ -69,13 +65,7 @@ export const ParallaxSlider = () => {
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
                 <div className="swiper-slide--inner text-center text-white">
-                  {/* <div className="slide--bg">
-                    <div className="slide-bg--inner"></div>
-                  </div> */}
                   <div className="slide-detail">
-                    {/* <div className="slide-main--subheading mb-3">
-                      <span><i className="fa-solid fa-award"></i> {slide.subheading}</span>
-                    </div> */}
                     <div className="slide-main--heading mb-3">
                       <div className="from-left">{slide.heading[0]}</div>
                       <div className="from-right">{slide.heading[1]}</div>

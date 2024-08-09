@@ -62,7 +62,10 @@
     padding: 15px;
     transform: translateY(70%);
     transition: opacity 0.1s 0.3s, transform 0.4s;
+    
 }
+
+
 
 .newsCaption-title {
     margin-top: 0;
@@ -70,7 +73,7 @@
 }
 
 .newsCaption .h3, h3 {
-    font-size: 22px;
+    font-size: 20px;
     font-family: figtreeregular;
     font-weight: 600;
     line-height: normal;
@@ -79,7 +82,19 @@
 .newsCaption-content {
     margin: 0;
     color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s ease;
 }
+
+.newsCaption:hover .newsCaption-content {
+    white-space: normal;
+    overflow: visible;
+  }
 
 .newsCaption-link {
     display: none;
