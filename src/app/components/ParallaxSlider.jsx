@@ -48,10 +48,10 @@ export const ParallaxSlider = () => {
             modules={[Navigation, Pagination, Scrollbar, Autoplay, Parallax]}
             spaceBetween={30}
             centeredSlides={true}
-            // autoplay={{
-            //   delay: 3000,
-            //   disableOnInteraction: false,
-            // }}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
             navigation
             // pagination={{ clickable: true }}
             // scrollbar={{ draggable: true }}
