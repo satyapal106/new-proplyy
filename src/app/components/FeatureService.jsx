@@ -10,7 +10,7 @@ import 'swiper/css/parallax';
 import Image from 'next/image';
 import './FeatureService.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye, faCheck, faMapMarker, faBuilding } from '@fortawesome/free-solid-svg-icons';
+import { faEye, faCheck, faMapMarker, faBuilding, faRupeeSign } from '@fortawesome/free-solid-svg-icons';
 
 const FeatureService = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,45 +19,39 @@ const FeatureService = () => {
   const properties = [
     {
       id: 1,
-      title: 'Property 1',
-      description: 'Property 1 description and details',
+      title: 'Omaxe City',
+      area: '534 sqft to 1168 sqft',
+      price: 'Price starting from 37 Lahs',
+      type:'Plots',
       image: '/assets/images/house/our-properties-1.jpg',
       points: ['Spacious living room', 'Modern kitchen', 'Large garden'],
     },
     {
       id: 2,
-      title: 'Property 2',
-      description: 'Property 2 description and details',
+      title: 'Ansal',
+      area: '774 sqft to 2225 sqft',
+      price:'Price starting from 27 Lahs',
+      type:'Plots',
       image: '/assets/images/house/our-properties-2.jpg',
       points: ['Beachfront view', 'Private pool', 'Luxurious design'],
     },
     {
       id: 3,
-      title: 'Property 3',
-      description: 'Property 3 description and details',
+      title: 'Bliss Delight',
+      area: '2bhk Area: 1240 sqft',
+      price:'Price starting from 57 Lahs',
+      type:'Flats',
       image: '/assets/images/house/our-properties-3.jpg',
       points: ['City center location', 'Rooftop terrace', 'Gym and sauna'],
     },
     {
       id: 4,
-      title: 'Property 4',
-      description: 'Property 4 description and details',
+      title: 'Bliss Delight',
+      area: '3 bhk Area: 1560 sqft',
+      price: "Price starting from 85 Lahs",
+      type:'Flats',
       image: '/assets/images/house/our-properties-4.jpg',
       points: ['Eco-friendly features', 'Open-plan layout', 'Scenic surroundings'],
-    },
-    {
-      id: 5,
-      title: 'Property 5',
-      description: 'Property 5 description and details',
-      image: '/assets/images/house/our-properties-5.jpg',
-      points: ['Historic architecture', 'Wine cellar', 'Library and study'],
-    },
-    {
-      id: 6,
-      title: 'Property 6',
-      description: 'Property 6 description and details',
-      image: '/assets/images/house/our-properties-3.jpg',
-      points: ['Gated community', 'Multi-car garage', 'Home theater'],
     },
   ];
 
@@ -98,7 +92,7 @@ const FeatureService = () => {
                   slidesPerView: 1,
                 },
                 1024: {
-                  slidesPerView: 4,
+                  slidesPerView: 3,
                 },
               }}
             >
@@ -122,7 +116,11 @@ const FeatureService = () => {
                         {/* <p className="text-body">{property.description}</p> */}
                         <ul>
                           <li><FontAwesomeIcon icon={faMapMarker} aria-hidden="true" /> Lucknow</li>
-                          <li><FontAwesomeIcon icon={faBuilding} aria-hidden="true" /> 2BHK, 3BHK, 4BHK</li>
+                          <li><FontAwesomeIcon icon={faBuilding} aria-hidden="true" /> {property.type} </li>
+                          <li><FontAwesomeIcon icon={faBuilding} aria-hidden="true" /> {property.area} </li>
+                          <li>
+                            <FontAwesomeIcon icon={faRupeeSign} aria-hidden="true" /> {property.price}
+                          </li>
                         </ul>
                       </div>
                       <div className="card-footer">
@@ -133,7 +131,7 @@ const FeatureService = () => {
                           className="card-button"
                           onClick={() => openModal(property.points)}
                         >
-                           <FontAwesomeIcon icon={faEye} aria-hidden="true" />
+                          <FontAwesomeIcon icon={faEye} aria-hidden="true" />
                         </div>
                       </div>
                     </div>

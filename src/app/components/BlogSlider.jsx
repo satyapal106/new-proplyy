@@ -63,36 +63,57 @@ const BlogSlider = () => {
                     >
                         <SwiperSlide className="swiper-blog swiper-slide--one">
                             <div>
-                                <h3>Property 1</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <h3>NRI Investment in Indian Real Estate</h3>
+                                <p>A new phenomena or old trend?</p>
                                 <Link href="#" target="_blank" rel="noopener noreferrer">Read More</Link>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-blog swiper-slide--two">
                             <div>
-                                <h3>Property 2</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <h3>Tier 2 & 3 Cities</h3>
+                                <p>Rapidly Becoming Growth Engines for Indian Real Estate</p>
                                 <Link href="#" target="_blank" rel="noopener noreferrer">Read More</Link>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-blog swiper-slide--three">
                             <div>
-                                <h3>Property 3</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <h3>Benefits of Second Home</h3>
+                                {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                 <Link href="#" target="_blank" rel="noopener noreferrer">Read More</Link>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-blog swiper-slide--four">
                             <div>
-                                <h3>Property 4</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <h3>All You Need To Know About Themed Homes</h3>
+                                {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                 <Link href="#" target="_blank" rel="noopener noreferrer">Read More</Link>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-blog swiper-slide--five">
                             <div>
-                                <h3>Property 5</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <h3>Retail Real Estate in India </h3>
+                                <p>A strong comeback and here to stay</p>
+                                <Link href="#" target="_blank" rel="noopener noreferrer">Read More</Link>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide className="swiper-blog swiper-slide--five">
+                            <div>
+                                <h3>Real Estate Investment in India Rose to All </h3>
+                                <p>Time High in 2022</p>
+                                <Link href="#" target="_blank" rel="noopener noreferrer">Read More</Link>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide className="swiper-blog swiper-slide--five">
+                            <div>
+                                <h3>Is Ready-To-Move-In House Better Than Investing In An Under </h3>
+                                <p>Construction Property?</p>
+                                <Link href="#" target="_blank" rel="noopener noreferrer">Read More</Link>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide className="swiper-blog swiper-slide--five">
+                            <div>
+                                <h3>Pros and Cons Of Investing In Commercial Real Estate </h3>
+                                {/* <p>Construction Property?</p> */}
                                 <Link href="#" target="_blank" rel="noopener noreferrer">Read More</Link>
                             </div>
                         </SwiperSlide>

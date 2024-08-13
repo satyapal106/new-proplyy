@@ -15,25 +15,25 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 export const ParallaxSlider = () => {
   const slides = [
     {
-      image: "https://imgpanda.com/upload/ib/7h4GtHmC8Y.jpg",
+      image: "/assets/images/slider/1.jpg",
       heading: ["Your Property", "Our Priority"],
       description: "Property Management Services You Can Trust",
       link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
     },
     {
-      image: "https://imgpanda.com/upload/ib/NqHhOwv4t0.jpg",
+      image: "/assets/images/slider/2.jpg",
       heading: ["Unlock Your", "Wealth Potential"],
       description: "With Expert Investment Management",
       link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
     },
     {
-      image: "https://imgpanda.com/upload/ib/bRqJVoCe3b.jpg",
+      image: "/assets/images/slider/3.jpg",
       heading: ["Transforming", "Investments"],
       description: "Into success stories with our Comprehensive Management Solutions",
       link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
     },
     {
-      image: "https://imgpanda.com/upload/ib/7h4GtHmC8Y.jpg",
+      image: "/assets/images/slider/4.jpg",
       heading: ["Delivering creative", "digital products"],
       description: "We're a fully dedicated corporate service agency collaborating with brands all over the world.",
       link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
@@ -48,10 +48,10 @@ export const ParallaxSlider = () => {
             modules={[Navigation, Pagination, Scrollbar, Autoplay, Parallax]}
             spaceBetween={30}
             centeredSlides={true}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
+            // autoplay={{
+            //   delay: 3000,
+            //   disableOnInteraction: false,
+            // }}
             navigation
             // pagination={{ clickable: true }}
             // scrollbar={{ draggable: true }}
@@ -64,7 +64,7 @@ export const ParallaxSlider = () => {
                 className="d-flex justify-content-center align-items-center"
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
-                <div className="swiper-slide--inner text-center text-white">
+                <div className="swiper-slide--inner text-left text-white justify-content-start">
                   <div className="slide-detail">
                     <div className="slide-main--heading mb-3">
                       <div className="from-left">{slide.heading[0]}</div>

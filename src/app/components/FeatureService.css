@@ -55,7 +55,7 @@
   }
 
   .featured-service ul{padding-left: 0.5rem;}
-  .featured-service ul li{list-style: none;font-size:13px;line-height: 25px;}
+  .featured-service ul li{list-style: none;font-size:15px;line-height: 25px;}
  
   .featured-service .btn-info{
     background-color:#ffffff;
@@ -94,7 +94,7 @@
 
 .featured-service .text-title {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 20px;
 }
 
