@@ -16,27 +16,27 @@ export const ParallaxSlider = () => {
   const slides = [
     {
       image: "/assets/images/slider/1.jpg",
-      heading: ["Your Property", "Our Priority"],
-      description: "Property Management Services You Can Trust",
-      link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
+      heading: ["Bringing Transparency", "to Business"],
+      description: "Building credibility, increasing customer loyalty, and creating empowerment.",
+      link: "#"
     },
     {
       image: "/assets/images/slider/2.jpg",
-      heading: ["Unlock Your", "Wealth Potential"],
-      description: "With Expert Investment Management",
-      link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
+      heading: ["Delivering Excellence", "to Real Estate"],
+      description: "Understanding expectations and offering customised solutions to clients.",
+      link: "#"
     },
     {
       image: "/assets/images/slider/3.jpg",
-      heading: ["Transforming", "Investments"],
-      description: "Into success stories with our Comprehensive Management Solutions",
-      link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
+      heading: ["A Key Milestone in our", "Growth Story"],
+      description: "Delighted to welcome 360 ONE, our equity investor!",
+      link: "#"
     },
     {
       image: "/assets/images/slider/4.jpg",
-      heading: ["Delivering creative", "digital products"],
-      description: "We're a fully dedicated corporate service agency collaborating with brands all over the world.",
-      link: "https://www.fiverr.com/aliali44/develop-or-customize-a-wordpress-theme"
+      heading: ["Fuelling Growth ", "through Innovation"],
+      description: "Leveraging new technologies to transform Indian real estate.",
+      link: "#"
     }
   ];
 
@@ -61,21 +61,21 @@ export const ParallaxSlider = () => {
             {slides.map((slide, index) => (
               <SwiperSlide
                 key={index}
-                className="d-flex justify-content-center align-items-center"
+                className="d-flex align-items-center"
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
-                <div className="swiper-slide--inner text-left text-white justify-content-start">
+                <div className="swiper-slide--inner text-left justify-content-start">
                   <div className="slide-detail">
-                    <div className="slide-main--heading mb-3">
+                    <div className="slide-main--heading">
                       <div className="from-left">{slide.heading[0]}</div>
                       <div className="from-right">{slide.heading[1]}</div>
                     </div>
-                    <div className="slide-des mb-3">
+                    <div className="slide-des">
                       <p className='slider-para'>{slide.description}</p>
                     </div>
-                    <div className="slide-cta mb-3">
+                    <div className="slide-cta">
                       <a href={slide.link} className="slide-btn gradient-btn btn btn-primary">
-                        Read More <span><FontAwesomeIcon icon={faArrowRight} /></span>
+                        Discover our Services <span><FontAwesomeIcon icon={faArrowRight} /></span>
                       </a>
                     </div>
                   </div>
