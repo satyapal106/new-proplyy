@@ -108,7 +108,6 @@ main >.swiper-pagination-bullet,
   line-height: 1.4;
   margin-bottom: 0.625rem;
   padding: 0 0 0 1.563rem;
-  text-transform: uppercase;
 }
 
 .swiper-blog p {
@@ -147,31 +146,46 @@ main > .swiper-slide-active div {
 
 .swiper-slide--one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/assets/images/house/our-properties-1.jpg")
+    url("/assets/images/blog/blog1.jpeg")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--two {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/assets/images/house/our-properties-2.jpg")
+    url("/assets/images/blog/blog2.jpeg")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/assets/images/house/our-properties-3.jpg")
+    url("/assets/images/blog/blog3.jpeg")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--four {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/assets/images/house/our-properties-4.jpg")
+    url("/assets/images/blog/blog4.jpeg")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--five {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("/assets/images/house/our-properties-5.jpg")
+    url("/assets/images/blog/blog5.jpeg")
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--six {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("/assets/images/blog/blog6.jpeg")
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--seven {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("/assets/images/blog/blog7.jpeg")
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--eight {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("/assets/images/blog/blog8.jpeg")
       no-repeat 50% 50% / cover;
 }
 

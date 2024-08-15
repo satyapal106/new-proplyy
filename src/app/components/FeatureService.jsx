@@ -23,7 +23,7 @@ const FeatureService = () => {
       area: '534 sqft to 1168 sqft',
       price: 'Price starting from 37 Lahs',
       type:'Plots',
-      image: '/assets/images/house/our-properties-1.jpg',
+      image: '/assets/images/house/Omaxe.jpg',
       points: ['Spacious living room', 'Modern kitchen', 'Large garden'],
     },
     {
@@ -32,7 +32,7 @@ const FeatureService = () => {
       area: '774 sqft to 2225 sqft',
       price:'Price starting from 27 Lahs',
       type:'Plots',
-      image: '/assets/images/house/our-properties-2.jpg',
+      image: '/assets/images/house/Ansal.jpg',
       points: ['Beachfront view', 'Private pool', 'Luxurious design'],
     },
     {
@@ -41,16 +41,16 @@ const FeatureService = () => {
       area: '2bhk Area: 1240 sqft',
       price:'Price starting from 57 Lahs',
       type:'Flats',
-      image: '/assets/images/house/our-properties-3.jpg',
+      image: '/assets/images/house/Bliss-Delight.jpg',
       points: ['City center location', 'Rooftop terrace', 'Gym and sauna'],
     },
     {
       id: 4,
-      title: 'Bliss Delight',
+      title: 'Urban Woods',
       area: '3 bhk Area: 1560 sqft',
       price: "Price starting from 85 Lahs",
       type:'Flats',
-      image: '/assets/images/house/our-properties-4.jpg',
+      image: '/assets/images/house/Urban-Woods.jpg',
       points: ['Eco-friendly features', 'Open-plan layout', 'Scenic surroundings'],
     },
   ];
