@@ -48,7 +48,7 @@ const ServiceSlider = () => {
               <SwiperSlide>
                 <div className="newsCard news-Slide-up">
                   <Image 
-                  src="/assets/images/services/1.jpg" 
+                  src="/assets/images/services/5.jpg" 
                   width={500}
                   height={250}
                   alt="Service 1" 
@@ -62,7 +62,7 @@ const ServiceSlider = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="newsCard news-Slide-up">
-                  <Image src="/assets/images/services/2.jpg"
+                  <Image src="/assets/images/services/6.jpg"
                    width={500}
                    height={250} 
                   alt="Service 2" />
@@ -76,7 +76,7 @@ const ServiceSlider = () => {
               <SwiperSlide>
                 <div className="newsCard news-Slide-up">
                   <Image 
-                    src="/assets/images/services/3.jpg" 
+                    src="/assets/images/services/7.jpg" 
                     width={500}
                     height={250}
                     alt="Service 3" 
@@ -91,7 +91,7 @@ const ServiceSlider = () => {
               <SwiperSlide>
                 <div className="newsCard news-Slide-up">
                   <Image 
-                  src="/assets/images/services/4.jpg" 
+                  src="/assets/images/services/8.jpg" 
                   width={500}
                   height={250}
                   alt="Service 4" 
