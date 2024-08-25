@@ -4,7 +4,8 @@
   }
   .counter-section{
     padding: 50px 0px;
-    /* background-color: #daf1ff; */
+    background-image:url('/assets/images/bg/bg-counter.jpg');
+    background-size: cover;
   }
   .counter{
     color: var(--color1);

@@ -74,7 +74,7 @@ const CounterSection = () => {
             <div className="container">
                 <div className="row">
                     <div className='col-md-12'>
-                        <h2 className='text-center'>Counter Section</h2>
+                        <h2 className='text-center text-white'>Counter Section</h2>
                     </div>
                     {[
                         { endValue: 11, duration: 3500, label: 'Years of Experience' },

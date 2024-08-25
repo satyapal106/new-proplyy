@@ -70,7 +70,7 @@ const FeatureService = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12 mb-3">
-            <h2 className="text-center">Latest in Real Estate Projects</h2>
+            <h2 className="text-center text-white">Latest in Real Estate Projects</h2>
           </div>
           <div className="col-sm-12">
             <Swiper
