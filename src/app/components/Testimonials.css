@@ -42,16 +42,17 @@
   
   .swiper-slide--inner .testimonial-detail p {
     color: #242e45;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 30px;
-    font-weight: 500;
+    font-weight: 400;
   }
   
   .swiper-slide--inner .testimonial-detail span {
     color: #3c2fc0;
-    font-weight: 800;
+    font-weight: 600;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 18px;
+    font-family: 'Aeonik', sans-serif;
   }
   
   @media only screen and (max-width: 981px) {

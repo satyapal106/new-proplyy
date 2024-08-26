@@ -43,7 +43,7 @@ export const ParallaxSlider = () => {
   return (
     <section className="creative-parallax--slider">
       <div className="container-fluid h-100">
-        <div className="row h-100">
+        <div className="row h-100 align-items-center">
           <Swiper
             modules={[Navigation, Pagination, Scrollbar, Autoplay, Parallax]}
             spaceBetween={30}

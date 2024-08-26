@@ -1,4 +1,17 @@
-p{font-family: figtreeregular;font-size: 20px;
+@import url('https://fonts.cdnfonts.com/css/ranade');
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/fonnts.com-Aeonik_Black.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Aeonik', sans-serif;
+}
+
+p{font-family: 'Ranade', sans-serif;
   font-weight: 400;
   line-height: 30px;
   color: rgb(255, 255, 255);
@@ -11,7 +24,7 @@ p{font-family: figtreeregular;font-size: 20px;
   font-weight: 400;
   color: #000;
   line-height: normal;
-  font-family: figtreeregular;
+  font-family: 'Aeonik', sans-serif;
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover {
   color: #a020f0; 
@@ -19,7 +32,7 @@ p{font-family: figtreeregular;font-size: 20px;
 }
 
 .h2, h2 {
-  font-family: bw_gradual_demomedium!important;
+  font-family: 'Aeonik', sans-serif!important;
   font-weight: 400!important;
   font-size: 36px!important;
 }
@@ -109,7 +122,7 @@ p{font-family: figtreeregular;font-size: 20px;
   .footer-big li {
     list-style: none;
     text-decoration: none;
-    font-family: figtreeregular;
+    font-family: 'Aeonik', sans-serif;
     font-size: 16px;
     font-weight: 400;
   }
@@ -134,11 +147,13 @@ p{font-family: figtreeregular;font-size: 20px;
     background-image:url('/assets/images/bg/footer-bg.jpg');
     background-size: cover;
     background-position: center;
+    background-color: #111111e3;
+    background-blend-mode: overlay;
   }
   .footer-big .footer-menu ul li a,
   .footer-big p,
   .footer-big ul li {
-    color: #212121;
+    color: #ffffff;
   }
   .footer-menu {
     padding-left: 48px;
@@ -160,6 +175,7 @@ p{font-family: figtreeregular;font-size: 20px;
     line-height: 42px;
     margin-bottom: 10px;
     font-size: 22px;
+    color:#ffffff;
   }
   .mini-footer {
     background: #192027;
@@ -170,7 +186,7 @@ p{font-family: figtreeregular;font-size: 20px;
     margin: 0;
     line-height: 26px;
     font-size: 15px;
-    color: #999;
+    color: #ffffff;
   }
   .mini-footer p a {
     color: #5867dd;

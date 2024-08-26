@@ -14,13 +14,8 @@ export const Footer = () => {
                         <div className="row">
                             <div className="col-md-4 col-sm-12">
                                 <div className="footer-widget">
-                                    <div className="widget-about">
-                                        <Image
-                                            src="/assets/images/logo/logo.png"
-                                            width={150} height={100}
-                                            alt=""
-                                            className="img-fluid"
-                                        />
+                                    <div className="footer-menu">
+                                       <h4 className="footer-widget-title">PROPLYY</h4>
                                         <p>
                                             Latest Trends|Technology &amp; Innovation|Industry
                                             Relations|Business News|Market Research

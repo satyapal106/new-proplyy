@@ -56,7 +56,12 @@
   }
 
   .featured-service ul{padding-left: 0.5rem;}
-  .featured-service ul li{list-style: none;font-size:15px;line-height: 25px;}
+  .featured-service ul li{
+    list-style: none;font-size:15px;line-height: 25px;
+    font-family: 'Ranade', sans-serif;
+  }
+  .featured-service ul li svg{color: #782fa4;}
+  
  
   .featured-service .btn-info{
     background-color:#ffffff;
@@ -95,13 +100,19 @@
 
 .featured-service .text-title {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 20px;
+    color: #782fa4;
 }
 
 .featured-service .text-body {
     font-size: .9em;
     padding-bottom: 10px;
+}
+.featured-service .card-footer .btn-info{
+  color: #782fa4!important;
+  font-family: 'Aeonik', sans-serif;
+  border:1px solid #782fa4;
 }
 
 .featured-service .card-button {

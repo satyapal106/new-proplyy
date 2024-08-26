@@ -59,7 +59,7 @@
   
   .slide-main--heading {
     display: block;
-    font-family: bw_gradual_demomedium;
+    font-family: 'Aeonik', sans-serif;
     text-align: left;
     color: #fff;
     /* text-shadow: rgb(11, 18, 54) 3px 3px 15px; */
@@ -347,6 +347,13 @@
   }
   
   @media only screen and (max-width: 768px) {
+    .slide-detail{text-align: center!important;}
+    .slide-main--heading{
+      text-align: center;
+    }
+    .slide-des {
+      text-align: center;
+    }
     .slider-wrap {
       height: 600px;
     }
