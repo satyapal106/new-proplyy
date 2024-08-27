@@ -5,7 +5,7 @@ export const Technology = () => {
     <>
       <section className="technology-section">
         <video className="tech-video w-100" autoPlay loop muted>
-          <source src="/assets/images/technology.mp4" type="video/mp4" />
+          <source src="/assets/images/technology.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
         <div className="container">
