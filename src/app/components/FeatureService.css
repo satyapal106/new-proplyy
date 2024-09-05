@@ -47,7 +47,7 @@
 }
 
 .featured-service {
-    background-image: url('/assets/images/bg/bg-feature.jpg');
+    background-image: url('/assets/images/bg/bg-feature.webp');
     background-size: cover;
     position: relative;
     padding: 50px 0px;
@@ -67,7 +67,7 @@
     background-color:#ffffff;
     border: #ffffff;
     color:#073583 !important;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     font-weight: 600;
   } 
   #featured-card .item {
@@ -77,11 +77,10 @@
   .featured-service .card {
     padding: 0;
     background: #fff;
-    border-radius: 15px;
     position: relative;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-}
+    border-radius: 0px;
+  }
 
 
 .featured-service .card-info {
@@ -102,7 +101,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
-    color: #782fa4;
+    color: #111111;
 }
 
 .featured-service .text-body {

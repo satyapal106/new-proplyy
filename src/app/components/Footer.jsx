@@ -15,7 +15,15 @@ export const Footer = () => {
                             <div className="col-md-4 col-sm-12">
                                 <div className="footer-widget">
                                     <div className="footer-menu">
-                                       <h4 className="footer-widget-title">PROPLYY</h4>
+                                        <h4 className="footer-widget-title">
+                                            <Image
+                                                className="img-responsive"
+                                                src='/assets/images/logo/logo.png'
+                                                width={200}
+                                                height={60}
+                                                alt="logo"
+                                            />
+                                        </h4>
                                         <p>
                                             Latest Trends|Technology &amp; Innovation|Industry
                                             Relations|Business News|Market Research

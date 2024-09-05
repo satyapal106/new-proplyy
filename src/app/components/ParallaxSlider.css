@@ -347,6 +347,31 @@
   }
   
   @media only screen and (max-width: 768px) {
+    .creative-parallax--slider .swiper-slide--inner {
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .slide-detail {
+      max-width: 100%;
+      padding: 0 15px;
+    }
+  
+    .slide-main--heading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .from-left, .from-right {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .slide-cta {
+      display: flex;
+      justify-content: center;
+    }
     .slide-detail{text-align: center!important;}
     .slide-main--heading{
       text-align: center;

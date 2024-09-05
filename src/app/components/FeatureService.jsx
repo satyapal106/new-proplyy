@@ -127,12 +127,12 @@ const FeatureService = () => {
                         <button type="button" className="btn btn-info">
                           Read More
                         </button>
-                        <div
+                        {/* <div
                           className="card-button"
                           onClick={() => openModal(property.points)}
                         >
                           <FontAwesomeIcon icon={faEye} aria-hidden="true" />
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>

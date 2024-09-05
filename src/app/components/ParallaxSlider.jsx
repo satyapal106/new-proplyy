@@ -21,7 +21,7 @@ export const ParallaxSlider = () => {
       link: "#"
     },
     {
-      image: "/assets/images/slider/2.jpg",
+      image: "/assets/images/slider/2.png",
       heading: ["Delivering Excellence", "to Real Estate"],
       description: "Understanding expectations and offering customised solutions to clients.",
       link: "#"

@@ -144,16 +144,16 @@ p{font-family: 'Ranade', sans-serif;
     margin-bottom: 40px;
   }
   .footer--light {
-    background-image:url('/assets/images/bg/footer-bg.jpg');
+    /* background-image:url('/assets/images/bg/footer-bg.jpg');
     background-size: cover;
-    background-position: center;
-    background-color: #111111e3;
-    background-blend-mode: overlay;
+    background-position: center; */
+    background-color: #f8f3ff;
+    /* background-blend-mode: overlay; */
   }
   .footer-big .footer-menu ul li a,
   .footer-big p,
   .footer-big ul li {
-    color: #ffffff;
+    color: #111111;
   }
   .footer-menu {
     padding-left: 48px;
@@ -175,7 +175,7 @@ p{font-family: 'Ranade', sans-serif;
     line-height: 42px;
     margin-bottom: 10px;
     font-size: 22px;
-    color:#ffffff;
+    color:#111111;
   }
   .mini-footer {
     background: #192027;
