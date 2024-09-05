@@ -22,8 +22,8 @@ export default function Home() {
       {/* <AboutSection/> */}
       <BlogSlider/>
       <Technology/>
-      <CounterSection/>
       <Testimonials/>
+      <CounterSection/>
       {/* <LastContent/> */}
       <Footer/>
     </>

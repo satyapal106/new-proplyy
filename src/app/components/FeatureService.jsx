@@ -10,7 +10,7 @@ import 'swiper/css/parallax';
 import Image from 'next/image';
 import './FeatureService.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye, faCheck, faMapMarker, faBuilding, faRupeeSign } from '@fortawesome/free-solid-svg-icons';
+import { faAngleRight, faCheck} from '@fortawesome/free-solid-svg-icons';
 
 const FeatureService = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -77,10 +77,10 @@ const FeatureService = () => {
               modules={[Navigation, Pagination, Scrollbar, Autoplay]}
               loop={true}
               centeredSlides={true}
-              autoplay={{
-                delay: 4000,
-                disableOnInteraction: false,
-              }}
+              // autoplay={{
+              //   delay: 4000,
+              //   disableOnInteraction: false,
+              // }}
               navigation={true}
               slidesPerView={1}
               spaceBetween={30}
@@ -115,17 +115,14 @@ const FeatureService = () => {
                         <h3 className="text-title">{property.title}</h3>
                         {/* <p className="text-body">{property.description}</p> */}
                         <ul>
-                          <li><FontAwesomeIcon icon={faMapMarker} aria-hidden="true" /> Lucknow</li>
-                          <li><FontAwesomeIcon icon={faBuilding} aria-hidden="true" /> {property.type} </li>
-                          <li><FontAwesomeIcon icon={faBuilding} aria-hidden="true" /> {property.area} </li>
-                          <li>
-                            <FontAwesomeIcon icon={faRupeeSign} aria-hidden="true" /> {property.price}
-                          </li>
+                          <li><Image src="/assets/images/logo/location.png" width={30} height={30} alt="location"/> Lucknow</li>
+                          <li></li>
+                          <li><Image src="/assets/images/logo/building.png" width={30} height={30} alt="building"/> {property.area} </li>
                         </ul>
                       </div>
                       <div className="card-footer">
                         <button type="button" className="btn btn-info">
-                          Read More
+                          Read More <FontAwesomeIcon icon={faAngleRight} aria-hidden="true" />
                         </button>
                         {/* <div
                           className="card-button"

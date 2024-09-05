@@ -138,7 +138,7 @@ p{font-family: 'Ranade', sans-serif;
     outline: 0;
   }
   .footer-big {
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0px 0;
   }
   .footer-big .footer-widget {
     margin-bottom: 40px;
@@ -178,7 +178,7 @@ p{font-family: 'Ranade', sans-serif;
     color:#111111;
   }
   .mini-footer {
-    background: #192027;
+    background-color: #f8f3ff;
     text-align: center;
     padding: 15px 0;
   }
@@ -186,7 +186,7 @@ p{font-family: 'Ranade', sans-serif;
     margin: 0;
     line-height: 26px;
     font-size: 15px;
-    color: #ffffff;
+    color: #111111;
   }
   .mini-footer p a {
     color: #5867dd;

@@ -15,6 +15,7 @@ const Testimonials = () => {
     <section className="creative-testimonial--slider"
       style={{
         backgroundImage: 'url(https://imgpanda.com/upload/ib/2Tgg58L106.png)',
+        backgroundColor:'rgb(66 181 228)',
       }}>
       <div className="testimonial-inner">
         <div className="container">
