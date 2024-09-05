@@ -77,10 +77,10 @@ const FeatureService = () => {
               modules={[Navigation, Pagination, Scrollbar, Autoplay]}
               loop={true}
               centeredSlides={true}
-              // autoplay={{
-              //   delay: 4000,
-              //   disableOnInteraction: false,
-              // }}
+              autoplay={{
+                delay: 4000,
+                disableOnInteraction: false,
+              }}
               navigation={true}
               slidesPerView={1}
               spaceBetween={30}

@@ -30,10 +30,10 @@ const BlogSlider = () => {
                         effect="coverflow"
                         grabCursor={true}
                         centeredSlides={true}
-                        // autoplay={{
-                        //     delay: 3000,
-                        //     disableOnInteraction: false,
-                        // }}
+                        autoplay={{
+                            delay: 3000,
+                            disableOnInteraction: false,
+                        }}
                         navigation
                         coverflowEffect={{
                             // rotate: 0,
