@@ -57,9 +57,12 @@
 
   .featured-service ul{padding-left: 0.5rem;}
   .featured-service ul li{
-    list-style: none;font-size:18px;line-height: 40px;
-    font-weight: 500;
-    font-family: 'Ranade', sans-serif;
+    list-style: none;
+    font-size:16px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: 'figtreeregular';
+    color:#000;
   }
   .featured-service ul li svg{
   background: linear-gradient(45deg, #005baa, #ff7e5f);
@@ -92,7 +95,7 @@
 
 
 .featured-service .card-info {
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .featured-service .card-footer {
@@ -107,7 +110,7 @@
 
 .featured-service .text-title {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 40px;
     color: #111111;
 }
@@ -117,9 +120,10 @@
     padding-bottom: 10px;
 }
 .featured-service .card-footer .btn-info{
-  color: #782fa4!important;
-  font-family: 'Aeonik', sans-serif;
-  font-size: 18px;
+  color: #a136ad !important;
+  font-family: 'figtreeregular';
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .featured-service .card-button {

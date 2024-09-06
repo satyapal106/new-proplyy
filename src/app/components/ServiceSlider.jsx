@@ -18,7 +18,7 @@ const ServiceSlider = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <h2 className="service-title text-center">Our Services</h2>
+            <h2 className="service-title">Services</h2>
             {/* <p className="service-para">
               We create innovative strategies to enable transformative growth
             </p> */}

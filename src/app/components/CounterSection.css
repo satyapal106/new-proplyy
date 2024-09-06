@@ -32,10 +32,7 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: -1;
   }
-  .counter .counter-value{
-    font-size: 30px;
-    font-weight: 600;
-  }
+  
   .counter .counter-icon{
     color: #fff;
     background: linear-gradient(to top left,var(--color1), var(--color2));
@@ -72,6 +69,7 @@
     line-height: 25px;
     display: block;
     color:#000;
+    font-family: 'bw_gradual_demomedium';
   }
   @media screen and (max-width:990px){
     .counter{ margin-bottom: 20px; width:auto;height: 150px;}

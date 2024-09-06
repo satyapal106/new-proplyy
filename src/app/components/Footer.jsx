@@ -19,7 +19,7 @@ export const Footer = () => {
                                             <Image
                                                 className="img-responsive"
                                                 src='/assets/images/logo/logo.png'
-                                                width={200}
+                                                width={150}
                                                 height={60}
                                                 alt="logo"
                                             />

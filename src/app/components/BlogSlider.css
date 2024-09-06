@@ -102,7 +102,7 @@ main >.swiper-pagination-bullet,
 
 .swiper-blog h3 {
   color: #fff;
-  font-family: 'Aeonik', sans-serif;
+  font-family: 'bw_gradual_demomedium';
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.4;
@@ -112,11 +112,11 @@ main >.swiper-pagination-bullet,
 
 .swiper-blog p {
   color: #fff;
-  font-family: 'Ranade', sans-serif;
+  font-family: 'figtreemedium';
   font-weight: 300;
   padding: 0 1.563rem;
   line-height: 1.6;
-  font-size: 15px;
+  font-size: 16px;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
