@@ -175,6 +175,7 @@
     .slide-detail {
         max-width: 100%;
         padding: 0 15px;
+        width: auto;
     }
 
     .slide-main--heading {
@@ -190,6 +191,7 @@
 
     .slide-detail {
         text-align: center !important;
+        width: auto;
     }
 
     .slide-main--heading {
@@ -272,3 +274,111 @@
     position: absolute;
     border: 1px solid rgba(255, 255, 255, .2);
 }
+
+/* Mobile view adjustments */
+@media only screen and (max-width: 768px) {
+    .creative-parallax--slider .swiper-slide--inner {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .slide-detail {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .slide-main--heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  /* Center the title */
+        text-align: center;
+    }
+
+    .slide-cta {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slide-detail {
+        text-align: center !important;
+    }
+
+    .slide-main--heading {
+        text-align: center;
+    }
+
+    .slide-des {
+        text-align: center;
+        margin: 0 auto; /* Center the description */
+    }
+
+    .slider-wrap {
+        height: 600px;
+    }
+
+    .slide--bg {
+        min-height: 650px;
+        min-width: 650px;
+        max-height: 650px;
+        max-width: 650px;
+    }
+
+    .slide--bg .slide-bg--inner {
+        width: 500px;
+        height: 500px;
+    }
+
+    .slide-badge {
+        right: -100px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .slider-wrap {
+        height: 736px;
+    }
+
+    .slide--bg {
+        min-height: 550px;
+        min-width: 550px;
+        max-height: 550px;
+        max-width: 550px;
+    }
+
+    .slide--bg .slide-bg--inner {
+        width: 450px;
+        height: 450px;
+    }
+
+    .parallax-slider .slide-btns {
+        display: none;
+    }
+
+    .slide-main--heading {
+        font-size: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* Center the title */
+        text-align: center;
+    }
+
+    .slide-des {
+        font-size: 14px;
+        text-align: center;
+        margin: 0 auto; /* Center the description */
+    }
+
+    .swiper-pagination {
+        display: flex;
+        column-gap: 15px;
+        justify-content: center;
+        bottom: 100px !important;
+    }
+
+    span.swiper-pagination-bullet {
+        display: block;
+    }
+}
+

@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, Autoplay, Parallax } from 'swiper/modules';
 import 'swiper/css';
@@ -13,27 +13,49 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 export const ParallaxSlider = () => {
+
+  const [isMobile, setIsMobile] = useState(false);
+ // Check if the screen is mobile
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    // Initial check
+    handleResize();
+
+    // Add event listener to detect window resize
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the event listener
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const slides = [
     {
       image: "/assets/images/slider/1.jpg",
+      mobileImage: '/assets/images/slider/8.jpg',
       heading: ["Bringing Transparency", "to Business"],
       description: "Building credibility, increasing customer loyalty, and creating empowerment.",
       link: "#"
     },
     {
       image: "/assets/images/slider/2.png",
+      mobileImage: '/assets/images/slider/7.jpg',
       heading: ["Delivering Excellence", "to Real Estate"],
       description: "Understanding expectations and offering customised solutions to clients.",
       link: "#"
     },
     {
       image: "/assets/images/slider/3.jpg",
+      mobileImage: '/assets/images/slider/6.jpg',
       heading: ["A Key Milestone in our", "Growth Story"],
       description: "Delighted to welcome 360 ONE, our equity investor!",
       link: "#"
     },
     {
       image: "/assets/images/slider/4.jpg",
+      mobileImage: '/assets/images/slider/5.jpg',
       heading: ["Fuelling Growth ", "through Innovation"],
       description: "Leveraging new technologies to transform Indian real estate.",
       link: "#"
@@ -62,7 +84,7 @@ export const ParallaxSlider = () => {
               <SwiperSlide
                 key={index}
                 className="d-flex align-items-center"
-                style={{ backgroundImage: `url(${slide.image})` }}
+                style={{ backgroundImage: `url(${isMobile ? slide.mobileImage : slide.image })` }}
               >
                 <div className="swiper-slide--inner text-left justify-content-start">
                   <div className="slide-detail">
