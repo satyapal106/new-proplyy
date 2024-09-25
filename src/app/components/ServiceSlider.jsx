@@ -17,7 +17,7 @@ const ServiceSlider = () => {
     <section className="service-section">
       <div className="container">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12 text-center">
             <h2 className="service-title">Services</h2>
             {/* <p className="service-para">
               We create innovative strategies to enable transformative growth
@@ -32,6 +32,7 @@ const ServiceSlider = () => {
                 delay: 4000,
                 disableOnInteraction: false,
               }}
+              loop={true}
               navigation={true}
               slidesPerView={1}
               breakpoints={{
@@ -48,7 +49,7 @@ const ServiceSlider = () => {
               className="swiper-container"
             >
               <SwiperSlide>
-                <div className="newsCard news-Slide-up">
+                <div className="newsCard news-Slide-up" style={{backgroundColor:'#f4e7ff'}}>
                   <Image
                     src="/assets/images/services/1.png"
                     width={500}
@@ -66,7 +67,7 @@ const ServiceSlider = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="newsCard news-Slide-up">
+                <div className="newsCard news-Slide-up" style={{backgroundColor:'#ecf0ff'}}>
                   <Image src="/assets/images/services/2.png"
                     width={500}
                     height={250}
@@ -83,7 +84,7 @@ const ServiceSlider = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="newsCard news-Slide-up">
+                <div className="newsCard news-Slide-up" style={{backgroundColor:'#cdfff1'}}>
                   <Image
                     src="/assets/images/services/3.png"
                     width={500}
@@ -102,7 +103,7 @@ const ServiceSlider = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="newsCard news-Slide-up">
+                <div className="newsCard news-Slide-up" style={{backgroundColor:'#fff3ed'}}>
                   <Image
                     src="/assets/images/services/4.png"
                     width={500}

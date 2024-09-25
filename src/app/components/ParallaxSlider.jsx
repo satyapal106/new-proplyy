@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, Autoplay, Parallax } from 'swiper/modules';
+import {Pagination, Scrollbar, Autoplay, Parallax } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -67,15 +67,15 @@ export const ParallaxSlider = () => {
       <div className="container-fluid h-100">
         <div className="row h-100 align-items-center">
           <Swiper
-            modules={[Navigation, Pagination, Scrollbar, Autoplay, Parallax]}
+            modules={[Pagination, Scrollbar, Autoplay, Parallax]}
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
               delay: 3000,
               disableOnInteraction: false,
             }}
-            navigation
-            // pagination={{ clickable: true }}
+            loop={true}
+            pagination={{ clickable: true }}
             // scrollbar={{ draggable: true }}
             parallax
             className="parallax-slider slider-wrap col-12"
