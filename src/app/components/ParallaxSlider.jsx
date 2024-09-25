@@ -68,10 +68,10 @@ export const ParallaxSlider = () => {
         <div className="row h-100 align-items-center">
           <Swiper
             modules={[Pagination, Scrollbar, Autoplay, Parallax]}
-            spaceBetween={30}
+            spaceBetween={0}
             centeredSlides={true}
             autoplay={{
-              delay: 3000,
+              delay: 5000,
               disableOnInteraction: false,
             }}
             loop={true}
