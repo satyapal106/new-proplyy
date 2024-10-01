@@ -84,13 +84,13 @@ export const Footer = () => {
                                         <h4 className="footer-widget-title">Contact Us</h4>
                                         <ul>
                                             <li>
-                                                <a href="#"><FontAwesomeIcon icon={faMapMarker} aria-hidden="true" /> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a>
+                                                <a href="#"><FontAwesomeIcon icon={faMapMarker} aria-hidden="true" /> Office No 607, Felix Square, Sushant gilf city, Lucknow</a>
                                             </li>
                                             <li>
-                                                <a href="#"><FontAwesomeIcon icon={faPhone} aria-hidden="true" /> +911111111111</a>
+                                                <a href="#"><FontAwesomeIcon icon={faPhone} aria-hidden="true" /> +91 8419901093</a>
                                             </li>
                                             <li>
-                                                <a href="#"><FontAwesomeIcon icon={faEnvelope} aria-hidden="true" /> example@gmail.com</a>
+                                                <a href="#"><FontAwesomeIcon icon={faEnvelope} aria-hidden="true" /> connect@proplyy.com</a>
                                             </li>
                                         </ul>
                                     </div>

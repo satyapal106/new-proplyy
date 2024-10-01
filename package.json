@@ -2,11 +2,11 @@
   "name": "proplyy",
   "version": "0.1.0",
   "private": true,
+  "type" : "module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
